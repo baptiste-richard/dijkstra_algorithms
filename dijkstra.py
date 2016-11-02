@@ -89,7 +89,7 @@ def dijkstra(graph):
     summary(graph) 
     
     
-# run Dijkstra Algorithm on two instances
+# run Dijkstra Algorithm on two instances (see csv files in directory)
 graph1 = pd.read_csv("dijkstra_example.csv")
 graph2 = pd.read_csv("C.csv")
 
