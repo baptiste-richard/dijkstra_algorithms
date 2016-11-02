@@ -7,10 +7,10 @@ Created on Mon Sep 19 12:16:08 2016
 
 import pandas as pd
 
+# set working directory
 # cd /Users/Baptiste/Documents/WORK/COLUMBIA/3. Fall 2016/IEOR4418 - Transportation Data Analytics
-# pwd
 
-#Passenger Class
+# Passenger Class
 class Node:
     number_of_nodes = 0
     
@@ -92,8 +92,8 @@ def dijkstra_cust_origin(graph,a,k):
     summary(graph)            
 
 
-graph1 = pd.read_csv("dijkstra_example.csv")
-graph2 = pd.read_csv("C.csv")
+graph1 = pd.read_csv("graph1.csv")
+graph2 = pd.read_csv("graph2.csv")
 
 dijkstra_cust_origin(graph2,1,3)
 
