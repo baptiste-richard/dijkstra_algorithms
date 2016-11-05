@@ -1,6 +1,6 @@
 # dijkstra_algorithms
 
-This folder contains two versions of the well known Dijkstra Algorithm:
+This folder contains two versions of the well known Dijkstra Algorithm::
 
 - dijkstra.py features the algorithm in its most classic version
 
